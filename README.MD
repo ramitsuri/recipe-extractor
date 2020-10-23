@@ -1,7 +1,7 @@
 ## Recipe Extractor 
 
 <p align="center">
-    A JVM library written in Kotlin to extract recipes from website that present their data in Json-LD (Linked Data) 
+    A JVM library + app written in Kotlin to extract recipes from website that present their data in Json-LD (Linked Data) 
     format (https://json-ld.org/)
 </p>
 
