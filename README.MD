@@ -19,6 +19,8 @@ val url = "https://www.cookwithmanali.com/tawa-paneer/"
 val extractor = RecipeExtractor();
 val recipe = extractor.get(url);
 ```
+- On run the REST server app and retrieve recipe like
+http://localhost:8080/api/recipe/extract?recipe=https://www.cookwithmanali.com/tawa-paneer/
 
 ### Supported websites 
 These websites have been tested to work for the most part
