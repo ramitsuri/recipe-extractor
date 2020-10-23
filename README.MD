@@ -16,10 +16,10 @@
 - Import library in your project
 ```
 val url = "https://www.cookwithmanali.com/tawa-paneer/"
-val extractor = RecipeExtractor();
-val recipe = extractor.get(url);
+val extractor = RecipeExtractor()
+val recipe = extractor.get(url)
 ```
-- On run the REST server app and retrieve recipe like
+- Or run the REST server app and retrieve recipe like
 http://localhost:8080/api/recipe/extract?recipe=https://www.cookwithmanali.com/tawa-paneer/
 
 ### Supported websites 
