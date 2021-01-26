@@ -35,7 +35,8 @@ class RecipeController(private val recipeService: RecipeService) {
     }
 
     private fun logRequest(remote: String, requestUrl: String) {
-        Log.d(TAG, """
+        Log.d(
+            TAG, """
             
             -----------------------BEGIN-----------------------
             Request received 
@@ -43,11 +44,13 @@ class RecipeController(private val recipeService: RecipeService) {
             For $requestUrl
             ------------------------END------------------------
             
-            """.trimIndent())
+            """.trimIndent()
+        )
     }
 
     private fun logResponse(remote: String, requestUrl: String) {
-        Log.d(TAG, """
+        Log.d(
+            TAG, """
             
             -----------------------BEGIN-----------------------
             Response sent 
@@ -55,6 +58,7 @@ class RecipeController(private val recipeService: RecipeService) {
             For $requestUrl
             ------------------------END------------------------
             
-            """.trimIndent())
+            """.trimIndent()
+        )
     }
 }
